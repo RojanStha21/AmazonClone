@@ -1,0 +1,475 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial;
+    border: border-box;
+
+}
+
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.navlogo {
+    height: 55px;
+    width: 100px;
+    
+}
+
+.logo {
+    background-image: url("amazon logo.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+
+.border {
+    border: 2px solid transparent;
+
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+/* box2 */
+.lomap {
+    display: flex;
+    align-items: flex-end;
+}
+.lo1 {
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.lo2 {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+/* box 3 */
+
+
+.navsearch {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+    width: 900px;
+    height: 40px;
+    border-radius: 4px;
+    border: orange;
+}
+
+.sall {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.sin {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.searchlogo {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: black;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
+
+.navsearch:hover {
+    border: 2px solid orange;
+   
+}
+
+
+/* box 4 */
+
+.btn {
+    font-size: 15px;
+    font-weight: bold;
+    color: #CCCCCC;
+    background-color: black;
+    border: none;
+}
+
+/* box 5 */
+
+.span {
+    font-size: 0.8rem;
+}
+
+.fontsize {
+    font-size: 1rem ;
+    font-weight: 700;
+}
+
+/**box 6**/
+ 
+.navcart i {
+    font-size: 30px;
+}
+
+/* sec nav */
+
+.sec-nav {
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.sec-nav p {
+    display: inline;
+    margin: 10px;
+    color: white;
+    
+}
+
+.nav-div2 {
+    width: 95%;
+    font-size: 0.9rem;
+    font-weight: 540;
+}
+
+/* main section */
+
+.main-section {
+    background-image: url("61CiqVTRBEL._SX3000_.jpg");
+    background-size: cover;
+    height: 300px;
+   
+}
+
+/* sub mian section */
+
+.sub-main1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(57, 57, 137);
+
+}
+
+.box {
+    height: 420px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    background-color: white;
+    margin-top: 1rem;
+}
+
+.box-ful {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+.box-img1 {
+    background-image: url("Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg");
+    height: 120px;
+    width: 185px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    line-height: 300px;
+  
+}
+.box-img2 {
+    background-image: url("Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg");
+    height: 120px;
+    width: 185px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    line-height: 300px;
+}
+
+.box-img3 {
+    background-image: url("Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg");
+    height: 120px;
+    width: 185px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    line-height: 300px;
+  
+
+}
+
+.box-img4 {
+    background-image: url("Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg");
+    height: 120px;
+    width: 185px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    line-height: 300px;
+
+  
+
+}
+.box-imgf {
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content:space-around;
+   
+}
+
+.box-imgs {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-around;
+
+}
+
+.smore {
+    color: blue;
+    line-height: 50px;
+    
+    
+}
+
+.box2img {
+    background-image: url("XCM_CUTTLE_1555947_2997386_379x304_1X_en_US._SY304_CB594429819_.jpg");
+    width : 380px;
+    height: 305px;
+    margin-top: 20px;
+    margin-bottom: 33px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.box-ful2 {
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+
+}
+
+.box3img {
+    background-image: url("Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg");
+    width : 380px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 33px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+   
+}
+
+.box-ful3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-ful4 {
+   margin-left: 1rem;
+   margin-right: 1rem;
+}
+
+.box-img41 {
+    background-image: url("4...1.jpg");
+    height: 120px;
+    width: 185px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-img42 {
+    background-image: url("4...2.jpg");
+    height: 120px;
+    width: 185px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-img43 {
+    background-image: url("4...3.jpg");
+    height: 120px;
+    width: 185px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-img44 {
+    background-image: url("4...4.jpg");
+    height: 120px;
+    width: 185px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.box-img4f {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    line-height: 280px;
+ }
+
+ .box-img4s {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    line-height: 280px;
+ }
+
+.sub-main2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(167, 160, 160);
+}
+
+.box2imgT {
+    background-image: url("Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg");
+    width : 380px;
+    height: 305px;
+    margin-top: 20px;
+    margin-bottom: 33px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sbox-img41 {
+    background-image: url("s4..1.jpg");
+    height: 120px;
+    width: 185px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sbox-img42 {
+    background-image: url("s4...2.jpg");
+    height: 120px;
+    width: 185px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sbox-img43 {
+    background-image: url("s4...3.jpg");
+    height: 120px;
+    width: 185px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sbox-img44 {
+    background-image: url("s4...4.jpg");
+    height: 120px;
+    width: 185px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box3imgT {
+    background-image: url("Fuji_Single_card_Lunar_New_Year_Graphics_1x_EN._SY304_CB585956471_.jpg");
+    width : 380px;
+    height: 305px;
+    margin-top: 20px;
+    margin-bottom: 33px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-img1 {
+    background-image: url("41aF1Kpc1iL._SY160_.jpg");
+    height: 170px;
+    width: 440px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    line-height: 370px;
+  
+}
+.box-img2 {
+    background-image: url("316r7290SLL._SY75_.jpg");
+    height: 75px;
+    width: 113px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    line-height: 180px;
+}
+
+.box-img3 {
+    background-image: url("31qcGgiIK7L._SY75_.jpg");
+    height: 75px;
+    width: 113px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    line-height: 180px;
+  
+
+}
+
+.box-img4 {
+    background-image: url("313zteqI9LL._SY75_.jpg");
+    height: 75px;
+    width: 113px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    line-height: 180px;
+}
+
+.footer-1 {
+    background-color: rgb(112, 70, 196);
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.footer-2 {
+    background-color: rgb(59, 26, 125);
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+  
+
+}
+
+.anchor {
+    margin-top: 30px;
+}
+
+.footer-2 a {
+ 
+   display: block;
+   color: #CCCCCC;
+   font-size: small;
+
+}
